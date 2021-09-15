@@ -1,4 +1,11 @@
 What is a gitignore file and what should it include for a Java project?
+	It ignore tracking of files mentione in .gitignore file.
 What does fast-forward in Git mean?
+	When you try to merge one commit with a commit that can be reached by following the first commit’s history, 
+	Git simplifies things by moving the pointer forward because there is no divergent work to merge together
+	– this is called a “fast-forward.”
 Why should you have different branches?
+	So that main branch remains least affected and each team member can work on their change in independent branch.
+	Finally merging checks conflict thus avoiding any in consistent code getting into main branch.
 In a project how many remote Git repositories do you usually have?
+	2. Remote configured for fetching and pushing.
